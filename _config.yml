@@ -7,7 +7,7 @@ theme: null
 #   compress: true
 #   dist: false
 #   shortcodes: true
-markdown: kramdown
+
 readme_index:
   with_frontmatter: true
 
