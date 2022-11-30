@@ -1,13 +1,13 @@
 title: jekyll-rtd-theme
 description: Just another documentation theme compatible with GitHub Pages
-markdown:kramdown
+
 theme: null
 
 # debug:
 #   compress: true
 #   dist: false
 #   shortcodes: true
-
+markdown: kramdown
 readme_index:
   with_frontmatter: true
 
