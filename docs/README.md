@@ -10,7 +10,6 @@
 | nonce | bigint | Information to be used during login. It could be cached anywhere, for now it's in the DB. |
 | id | uuid | PRIMARY KEY. Uniquely identifies user across several tables. |
 | address | text | User's wallet address. |
-|
 
 
 ### groups
@@ -20,7 +19,6 @@
 | id | bigint | PRIMARY KEY. Group's identifyer. Each new group increments the identifying number. |
 | name | text | Human readable group name. |
 | description | text | Details about the group to give context to the user. |
-|
 
 
 ### group_members
@@ -30,7 +28,6 @@
 | id | Text | PRIMARY KEY. Present just to function as primary key. NOTE: maybe we don't need this. |
 | user_id | uuid | FOREIGN KEY from users' table. Identifies a user in the group. |
 | group_id | bigint | FOREIGN KEY from groups' table. Identifies a group. |
-|
 
 
 ### activity
